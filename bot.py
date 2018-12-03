@@ -1,18 +1,9 @@
 import discord
 import asyncio
 import random
-import praw
 import time
 
-reddit = praw.Reddit(client_id = 'uueNV9hwkRDWrw',
-                     client_secret = 'cvSw7_mvx2_TrqfeyMWrBOthqNI',
-                     username = 'FetcherBot321',
-                     password = 'iqmal102',
-                     user_agent = 'prawUsementsv1')
 
-subreddit = reddit.subreddit("dankmemes")
-
-hot_me_irl = subreddit.new(limit = 1)
 
 
 
