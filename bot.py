@@ -2,7 +2,7 @@ import discord
 import asyncio
 import random
 import time
-
+import os
 
 
 
@@ -39,6 +39,6 @@ async def on_message(message):
 
 
 
-client.run("NDMyODExNDY4MDQ0MzY5OTIx.Dayuvg.reHIrMpWI_EospUGG0SPbuUzznE")
+client.run(os.environ.get("clientToken"))
 
 
